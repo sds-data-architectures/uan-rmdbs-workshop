@@ -1,0 +1,1 @@
+CREATE SCHEMA courses AUTHORIZATION universitydbuser;
