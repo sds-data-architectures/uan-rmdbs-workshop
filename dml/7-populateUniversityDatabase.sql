@@ -1,6 +1,6 @@
 -- https://www.postgresqltutorial.com/postgresql-transaction/
 SET search_path = courses;
-BEGIN WORK;
+--BEGIN WORK;
 INSERT INTO time_slot VALUES ( 'A', 'M', 8, 0, 8, 50);
 INSERT INTO time_slot VALUES ( 'A', 'W', 8, 0, 8, 50);
 INSERT INTO time_slot VALUES ( 'A', 'F', 8, 0, 8, 50);
@@ -34621,4 +34621,4 @@ INSERT INTO prereq VALUES('830', '748');
 INSERT INTO prereq VALUES('558', '130');
 INSERT INTO prereq VALUES('877', '599');
 INSERT INTO prereq VALUES('349', '612');
-COMMIT;
+--COMMIT;
